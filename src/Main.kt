@@ -16,9 +16,8 @@ fun main(){
     println("La media es de los numeros es: $media")
 
     for (i in listaNumeros){
-        if (i >= media) {
-            listaNumerosMayorMedia.add(i)
-        }
+        if (i >= media) listaNumerosMayorMedia.add(i)
+
     }
 
     println("La lista de los numeros es mayor que la media es: $listaNumerosMayorMedia")
