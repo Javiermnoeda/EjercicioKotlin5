@@ -12,7 +12,7 @@ fun main(){
 
     //println("Lista de todos los numeros aleatorios: $listaNumeros") (era para comprobar que funciona)
 
-    media /= listaNumeros.size
+    media /= listaNumeros.size //Equivalente a media = media/listaNumeros.size
     println("La media es de los numeros es: $media")
 
     for (i in listaNumeros){
@@ -20,7 +20,7 @@ fun main(){
             listaNumerosMayorMedia.add(i)
         }
     }
-    
+
     println("La lista de los numeros es mayor que la media es: $listaNumerosMayorMedia")
 
 }
